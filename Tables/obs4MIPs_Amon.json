@@ -1180,6 +1180,24 @@
             "valid_max":"",
             "valid_min":""
         },
+        "ta-plev37":{
+            "cell_measures":"area: areacella",
+            "cell_methods":"time: mean",
+            "comment":"Air Temperature",
+            "dimensions":"longitude latitude plev37-ERA5 time",
+            "frequency":"mon",
+            "long_name":"Air Temperature",
+            "modeling_realm":"atmos",
+            "ok_max_mean_abs":"",
+            "ok_min_mean_abs":"",
+            "out_name":"ta",
+            "positive":"",
+            "standard_name":"air_temperature",
+            "type":"real",
+            "units":"K",
+            "valid_max":"",
+            "valid_min":""
+        },
         "tas":{
             "cell_measures":"area: areacella",
             "cell_methods":"area: time: mean",
