@@ -1,0 +1,22 @@
+[project]
+name = "obs4mips-cmor-rc"
+version = "0.1.0"
+description = "Package for Registering Content with Obs4MIPS CMOR Tables"
+authors = [
+    {name = "dwest77a",email = "daniel.westwood@stfc.ac.uk"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+packages = [
+    { include = "obs4mips-cmor-rc", from = "src" }
+]
+
+[project.scripts]
+register_rc = "obs4mips_cmor_rc.register_rc:main"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
