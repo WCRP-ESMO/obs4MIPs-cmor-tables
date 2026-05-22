@@ -1,27 +1,52 @@
-name: documentation
+name: Sphinx build
 
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    branches: [documentation]
 
-permissions:
-  contents: write
-
+  # Run workflow manually from actions tab.
+  workflow_dispatch:
+    
 jobs:
-  docs:
+  build:
+    # Specify an OS for the runner
     runs-on: ubuntu-latest
+
+    #Define steps
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-      - name: Install dependencies
-        run: |
-          pip install sphinx myst_parser
-      - name: Sphinx build
-        run: |
-          sphinx-build doc _build
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+
+      # Firstly, checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      # Set up Python env
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          publish_branch: gh-pages
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _build/
-          force_orphan: true
+          python-version: 3.11
+      # Install dependencies
+      - name: Install Python dependencies
+        run: |
+            pip install sphinx sphinx_rtd_theme myst_parser
+
+      - name: Build documentation
+        run: |
+          mkdir gh-pages
+          touch gh-pages/.nojekyll
+          pushd docs/
+          sphinx-build -b html . _build
+          popd
+          cp -r docs/_build/* gh-pages/
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: html-docs
+          path: gh-pages
+      # Deploys to the gh-pages branch if the commit was made to main, the 
+      # gh-pages then takes over serving the html
+      - name: Deploy documentation
+        if: ${{ github.event_name == 'push' }}
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: gh-pages
