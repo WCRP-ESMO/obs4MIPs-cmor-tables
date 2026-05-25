@@ -59,12 +59,9 @@ html_theme = 'alabaster'
 
 html_theme_options = {
     "navigation_with_keys": False,
-    "logo": {
-        "image_light": "logo.png",
-        # "image_dark": "figures/logo-2-dark.png",
-    },
+    "logo": "logo.png",
 }
-html_logo = 'logo.png'
+# html_logo = 'logo.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
