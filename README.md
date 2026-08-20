@@ -1,11 +1,11 @@
 <img src="assets/imgs/obs4MIPs_Logo-baseline_positive.jpg" width="15%" height="15%" align="right" />
 
-## Management of Controlled Vocabulary (CV) and Registered Content (RC) adhering to the [obs4MIPs Data Specifications (ODS2.6)](https://zenodo.org/records/17235676) ##
+## Management of Controlled Vocabulary (CV) and Registered Content (RC) adhering to the [obs4MIPs Data Specifications (ODS)](https://www.doi.org/10.5281/zenodo.11500473) ##
 
 This repo is used to develop and maintain:
 
-- Version control of **obs4MIPs compliant [`source_ids`](https://github.com/PCMDI/obs4MIPs-cmor-tables/blob/master/obs4MIPs_source_id.json)** 
-- Maintenance of [obs4MIPs CMOR tables (json files)](https://github.com/PCMDI/obs4MIPs-cmor-tables/tree/master/Tables)
+- Version control of **obs4MIPs compliant [`source_ids`](https://github.com/WCRP-ESMO/obs4MIPs-cmor-tables/blob/master/obs4MIPs_source_id.json)** 
+- Maintenance of [obs4MIPs CMOR tables (json files)](https://github.com/WCRP-ESMO/obs4MIPs-cmor-tables/tree/master/Tables)
 - Version controlled documentation of processing codes to used to prepare obs4MIPs compliant data
 - Selected demos for perparing obs4MIPs compliant data
 - Up-to-date obs4MIPs Controlled Vocabularies (CVs; json files) including: 
@@ -16,18 +16,14 @@ This repo is used to develop and maintain:
  
   ⚠️ *Please note there is no intention to generate a tag/release for regular updates to the CV and RC JSON files. It is expected that users of this information will be in communication with the team managing this repository*.⚠️
 
-## [Preparing a new obs4MIPs-compliant dataset](https://github.com/PCMDI/obs4MIPs-cmor-tables/tree/master/inputs/README.md)
+## [Preparing a new obs4MIPs-compliant dataset](https://github.com/WCRP-ESMO/obs4MIPs-cmor-tables/tree/master/inputs/README.md)
 
-The first step is to propose a new `source_id`, [open an issue in this repo](https://github.com/PCMDI/obs4MIPs-cmor-tables/issues/new/choose). When submitting an issue, a template is provided for contributors to modify for their proposed `source_id`. Once the issue is submitted, one of the site maintainers will review it and when ready will execute its implementation into the database of `source_ids` maintained within the [`obs4MIPs_source_id.json`](https://github.com/PCMDI/obs4MIPs-cmor-tables/blob/master/obs4MIPs_source_id.json) file in this repo.  Once a source_id is registered, data contributors can [follow the recipe for preparing obs4MIPs-compliant data](https://github.com/PCMDI/obs4MIPs-cmor-tables/blob/master/inputs/README.md).
+The first step is to propose a new `source_id`, [open an issue in this repo](https://github.com/WCRP-ESMO/obs4MIPs-cmor-tables/issues/new/choose). When submitting an issue, a template is provided for contributors to modify for their proposed `source_id`. Once the issue is submitted, one of the site maintainers will review it and when ready will execute its implementation into the database of `source_ids` maintained within the [`obs4MIPs_source_id.json`](https://github.com/WCRP-ESMO/obs4MIPs-cmor-tables/blob/master/obs4MIPs_source_id.json) file in this repo.  Once a source_id is registered, data contributors can [follow the recipe for preparing obs4MIPs-compliant data](https://github.com/WCRP-ESMO/obs4MIPs-cmor-tables/blob/master/inputs/README.md).
 
-
-## Obs4MIPs Data Delivery Contributors (DDC)
-
-[![Contributors](https://contrib.rocks/image?repo=PCMDI/obs4MIPs-cmor-tables)](https://github.com/PCMDI/obs4MIPs-cmor-tables/graphs/contributors)
 
 ## Acknowledgement
 
-The repository content has been collected from many contributors representing the Observations for Model Intercomparison Projects (obs4MIPs) community worldwide. The structure of content and tools required to maintain it was developed by climate and computer scientists from the Program for Climate Model Diagnosis and Intercomparison ([PCMDI](https://pcmdi.llnl.gov/)) at Lawrence Livermore National Laboratory ([LLNL](https://www.llnl.gov/)) with assistance from colleagues from Remote Sensing Systems ([RSS](https://www.remss.com/)), the [UK MetOffice](https://www.metoffice.gov.uk/), the UK Centre for Environmental Data Analysis ([CEDA](https://www.ceda.ac.uk/)), The Earth System Model eValuation Tool ([ESMValGroup](https://esmvaltool.org/)), Deutscher Wetterdienst ([DWD](https://www.dwd.de)) and a large and expanding international community.
+This repository content has been collected from many contributors representing the Observations for Model Intercomparison Projects (obs4MIPs) community worldwide. The structure of content and tools required to maintain it was originally developed by climate and computer scientists from the Program for Climate Model Diagnosis and Intercomparison ([PCMDI](https://pcmdi.llnl.gov/)) at Lawrence Livermore National Laboratory ([LLNL](https://www.llnl.gov/)) with assistance from colleagues from Remote Sensing Systems ([RSS](https://www.remss.com/)), the [UK MetOffice](https://www.metoffice.gov.uk/), the UK Centre for Environmental Data Analysis ([CEDA](https://www.ceda.ac.uk/)), The Earth System Model eValuation Tool ([ESMValGroup](https://esmvaltool.org/)), Deutscher Wetterdienst ([DWD](https://www.dwd.de)) and other members of the international science community.
 
 This work is sponsored by the Regional and Global Model Analysis ([RGMA](https://climatemodeling.science.energy.gov/program/regional-global-model-analysis)) program of the Earth and Environmental Systems Sciences Division ([EESSD](https://science.osti.gov/ber/Research/eessd)) in the Office of Biological and Environmental Research ([BER](https://science.osti.gov/ber)) within the Department of Energy's ([DOE](https://www.energy.gov/)) Office of Science ([OS](https://science.osti.gov/)). The work at PCMDI is performed under the auspices of the U.S. Department of Energy by Lawrence Livermore National Laboratory under Contract DE-AC52-07NA27344.
 
