@@ -33,7 +33,7 @@ python runCMORdemo_zonalmean.py
 
 If you have any difficulties, please contact the obs4MIPs team at obs4mips[dash]panel[at]wcrp[dash]cmip[dot]org
 
-[More details on the process of preparing obs4MIPs compliant data are available in /inputs of this repo.](https://github.com/WCRP-ESMO/obs4MIPs-cmor-tables/tree/master/inputs)
+[More details on the process of preparing obs4MIPs compliant data are available in /inputs of this repo.](https://github.com/WCRP-ESMO/obs4MIPs-cmor-tables/blob/master/inputs/README.md)
 
 
 
