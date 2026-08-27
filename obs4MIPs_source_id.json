@@ -847,7 +847,7 @@
             "source_version_number":"2.0"
         },
         "ESACCI-LST-AMSR-6-0-4":{
-            "institution_id":"ULeicester",
+            "institution_id":"Estellus",
             "region":[
                 "global_land"
             ],
@@ -855,7 +855,7 @@
             "source_description":"ESA Land Surface Temperature Climate Change Initiative AMSR-E and AMSR2 Microwave Low Earth Orbit land surface temperature",
             "source_label":"ESACCI-LST-AMSR",
             "source_name":"ESACCI-LST-AMSR",
-            "source_type":"satellite_blended",
+            "source_type":"satellite_retrieval",
             "source_variables":[
                 "ts",
                 "tsuind"
@@ -881,7 +881,7 @@
             "source_version_number":"3.00"
         },
         "ESACCI-LST-SSMI-6-0-4":{
-            "institution_id":"ULeicester",
+            "institution_id":"Estellus",
             "region":[
                 "global_land"
             ],
@@ -889,7 +889,7 @@
             "source_description":"ESA Land Surface Temperature Climate Change Initiative SSM/I and SSMIS Microwave Low Earth Orbit land surface temperature",
             "source_label":"ESACCI-LST-SSMI",
             "source_name":"ESACCI-LST-SSMI",
-            "source_type":"satellite_blended",
+            "source_type":"satellite_retrieval",
             "source_variables":[
                 "ts",
                 "tsuind"
