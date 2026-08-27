@@ -22,7 +22,7 @@ source_id['source_id'][key]['source_description'] = 'ESA Land Surface Temperatur
 source_id['source_id'][key]['source_version_number'] = '6.04'
 source_id['source_id'][key]['institution_id'] = 'Estellus'
 source_id['source_id'][key]['region'] = ['global_land']
-source_id['source_id'][key]['source_type'] = 'satellite_blended'
+source_id['source_id'][key]['source_type'] = 'satellite_retrieval'
 source_id['source_id'][key]['source_variables'] = ['ts', 'tsuind']
 
 key = 'ESACCI-LST-SSMI-6-0-4'
@@ -34,7 +34,7 @@ source_id['source_id'][key]['source_description'] = 'ESA Land Surface Temperatur
 source_id['source_id'][key]['source_version_number'] = '6.04'
 source_id['source_id'][key]['institution_id'] = 'Estellus'
 source_id['source_id'][key]['region'] = ['global_land']
-source_id['source_id'][key]['source_type'] = 'satellite_blended'
+source_id['source_id'][key]['source_type'] = 'satellite_retrieval'
 source_id['source_id'][key]['source_variables'] = ['ts', 'tsuind']
 
 key = '20CR-V3'
