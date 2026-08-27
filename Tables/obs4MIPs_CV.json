@@ -2695,7 +2695,7 @@
             "ESACCI-LST-AMSR-6-0-4":{
                 "region":"global_land",
                 "source":"ESACCI-LST-AMSR 6.04 (2026): ESA Land Surface Temperature Climate Change Initiative AMSR-E and AMSR2 Microwave Low Earth Orbit land surface temperature",
-                "source_type":"satellite_blended",
+                "source_type":"satellite_retrieval",
                 "source_version_number":"6.04"
             },
             "ESACCI-LST-IRMGP-3-0-0":{
@@ -2707,7 +2707,7 @@
             "ESACCI-LST-SSMI-6-0-4":{
                 "region":"global_land",
                 "source":"ESACCI-LST-SSMI 6.04 (2026): ESA Land Surface Temperature Climate Change Initiative SSM/I and SSMIS Microwave Low Earth Orbit land surface temperature",
-                "source_type":"satellite_blended",
+                "source_type":"satellite_retrieval",
                 "source_version_number":"6.04"
             },
             "ESACCI-PREC-L3C-NO2":{
