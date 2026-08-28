@@ -275,7 +275,7 @@ A1hrPt['Header']['table_id']    = 'Table obs4MIPs_A1hrPt'
 # Clean out modeling_realm
 for jsonName in [Aday,A3hr,A6hr,Oday,SIday,Amon,Lmon,Omon,SImon,fx,Ofx]:
   try:
-   jsonName['Header']["Conventions"] = "CF-1.12; ODS-2.6.1"
+   jsonName['Header']["Conventions"] = "CF-1.12 ODS-2.6.1"
    jsonName['Header']["data_specs_version"] = "ODS-2.6.1"
   except:
    pass
@@ -323,12 +323,14 @@ tmp = [['grid_label','https://raw.githubusercontent.com/WCRP-CMIP/CMIP6_CVs/mast
 #==============================================================================
 
 #%% License
-license_ = ('Data in this file produced by <Your Centre Name> is licensed under'
-            ' a Creative Commons Attribution-ShareAlike 4.0 International License'
-            ' (https://creativecommons.org/licenses/). Use of the data must be'
-            ' acknowledged following guidelines found at <a URL maintained by you>.'
-            ' Further information about this data, including some limitations,'
-            ' can be found via <some URL maintained by you>.')
+license_ = (
+    r'^Data in this file produced by .* is licensed under'
+    r' a Creative Commons Attribution-ShareAlike 4.0 International License'
+    r' (https://creativecommons.org/licenses/). Use of the data must be'
+    r' acknowledged following guidelines found at .*.'
+    r' Further information about this data, including some limitations,'
+    r' can be found via .*.'
+)
 
 #%% Nominal resolution
 #%% Product
