@@ -106,8 +106,12 @@
             "FMI":"Finnish Meteorological Institute, Helsinki, Finland",
             "GloH2O":"gloh2o.org",
             "INCOIS-NIO-IPSL":"Joint research colloboration between INCOIS(India), NIO(India) and IPSL(France)",
+            "IUP-UB":"Institute of Environmental Physics, University of Bremen, Germany",
             "ImperialCollege":"Imperial College, London, UK",
             "JAXA":"The Japan Aerospace Exploration Agency",
+            "JMA":"Japanese Meterorological Agency",
+            "KNMI":"Royal Netherlands Meteorological Institute",
+            "KNMI-WUR":"Multi-institute/agency collaboration,KNMI-WUR",
             "MET-Norway":"Norwegian Meteorological Institute",
             "MOHC":"Met Office Hadley Centre",
             "MOHC-CRU-NCAS":"Joint research collaboration between MOHC(UK), CRU-UEA (UK) and NCAS (UK)",
@@ -129,11 +133,15 @@
             "RSS":"Remote Sensing Systems, Santa Rosa, CA USA",
             "UAH":"University of Alcala, Spain",
             "UCI-CHRS":"Center for Hydrometeorology and Remote Sensing",
+            "UCSB-CHC":"University of California, Santa Barbara, Climate Hazards Center",
             "UCSD-SIO":"University of California, San Diego, Scripps Institution of Oceanography",
             "UReading":"University of Reading, Reading, UK",
-            "UW":"University of Washington, USA"
+            "UW":"University of Washington, USA",
+            "WUR":"Wageningen Universit, Netherlands"
         },
-        "license":"Data in this file produced by <Your Centre Name> is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Use of the data must be acknowledged following guidelines found at <a URL maintained by you>. Further information about this data, including some limitations, can be found via <some URL maintained by you>.",
+        "license":[
+            "Data in this file produced by <Your Centre Name> is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/). Use of the data must be acknowledged following guidelines found at <a URL maintained by you>. Further information about this data, including some limitations, can be found via <some URL maintained by you>."
+        ],
         "nominal_resolution":[
             "0.5 km",
             "1 km",
@@ -1610,6 +1618,12 @@
                 "source_type":"reanalysis",
                 "source_version_number":"V2"
             },
+            "20CR-V3":{
+                "region":"global",
+                "source":"20CR V3 (2019): Monthly NOAA/CIRES/DOE 20th Century Reanalysis V3",
+                "source_type":"reanalysis",
+                "source_version_number":"V3"
+            },
             "AI-upscaling-cSoil-1-0":{
                 "region":"contiguous_united_states",
                 "source":"AI-upscaling-cSoil 1 (2024): Upscaling soil organic carbon measurements at the continental scale using multivariate clustering analysis and machine learning",
@@ -1670,6 +1684,18 @@
                 "source_type":"satellite_retrieval",
                 "source_version_number":"9.0"
             },
+            "C3S-XCH4-v4-6":{
+                "region":"global",
+                "source":"C3S-XCH4 4.6 (2024): Copernicus Climate Change Service merged satellite-derived column-average dry-air mole fraction of atmospheric methane",
+                "source_type":"satellite_blended",
+                "source_version_number":"4.6"
+            },
+            "C3S-XCO2-v4-6":{
+                "region":"global",
+                "source":"C3S-XCO2 4.6 (2024): Copernicus Climate Change Service merged satellite-derived column-average dry-air mole fraction of atmospheric carbon dioxide",
+                "source_type":"satellite_blended",
+                "source_version_number":"4.6"
+            },
             "CALIPSO-ICECLOUD-1-0":{
                 "region":"global",
                 "source":"CALIPSO-ICECLOUD 1.00 (2018): Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO) Ice cloud",
@@ -1717,6 +1743,12 @@
                 "source":"CERES-EBAF4-2 4.2.1 (2025): CERES EBAF (Energy Balanced and Filled) TOA Fluxes. Monthly Averages",
                 "source_type":"satellite_blended",
                 "source_version_number":"4.2.1"
+            },
+            "CHIRPS-V3":{
+                "region":"global_land",
+                "source":"CHIRPS V3 (2025): CHIRPS Version 3.0",
+                "source_type":"satellite_blended",
+                "source_version_number":"V3"
             },
             "CMAP-V1902":{
                 "region":"global",
@@ -1850,6 +1882,24 @@
                 "source_type":"satellite_retrieval",
                 "source_version_number":"2.0"
             },
+            "ESACCI-L3-NO2-TROPOMI-2-0":{
+                "region":"global",
+                "source":"ESACCI-L3-NO2-TROPOMI 2.0 (2025): Monthly tropospheric nitrogen dioxide (NO2) column number density in the context of ESA CCI+ precursors for aerosols and ozone project",
+                "source_type":"satellite_blended",
+                "source_version_number":"2.0"
+            },
+            "ESACCI-PREC-L3C-NO2":{
+                "region":"global",
+                "source":"ESACCI-PREC-L3C-NO2 1.0 (2021): Total and tropospheric nitrogen dioxide (NO2) column number density in the context of ESA CCI+ precursors for aerosols and ozone project",
+                "source_type":"satellite_blended",
+                "source_version_number":"1.0"
+            },
+            "ESACCI-SCFG-MODIS-v4-0":{
+                "region":"global_land",
+                "source":"ESACCI-SCFG-MODIS v4-0 (2025): Snow Cover Fraction on Ground (SCFG) derived from Terra MODIS data from the ESA SNOW CCI Climate Data Record version 4.0",
+                "source_type":"satellite_blended",
+                "source_version_number":"v4-0"
+            },
             "FLUXNET2015-1-0":{
                 "region":"global_land",
                 "source":"FLUXNET2015 1.0 (2020): FLUXNET Community Product",
@@ -1957,6 +2007,18 @@
                 "source":"GSMAP 6.0 (2017): JAXA GSMAP prepared for FROGS",
                 "source_type":"satellite_blended",
                 "source_version_number":"6.0"
+            },
+            "GSMaP-v4":{
+                "region":"global",
+                "source":"GSMAP v4 (2017): JAXA GSMAP",
+                "source_type":"satellite_blended",
+                "source_version_number":"v4"
+            },
+            "GSMaP-v5":{
+                "region":"global",
+                "source":"GSMAP v5 (2017): JAXA GSMAP",
+                "source_type":"satellite_blended",
+                "source_version_number":"v5"
             },
             "HOFFMAN-1-0":{
                 "region":"global",
@@ -2071,6 +2133,12 @@
                 "source":"JASMES Snow Cover 1-0 (2024): Global daily surface snow area fraction derived from merged satellite observations using a consistent objective snow cover mapping algorithm applied to multiple generations of optical sensors since 1978.",
                 "source_type":"satellite_blended",
                 "source_version_number":"1-0"
+            },
+            "JRA-3Q":{
+                "region":"global",
+                "source":"JRA 3Q (2025): Japanese Reanalysis for Three Quarters of a Century",
+                "source_type":"reanalysis",
+                "source_version_number":"3Q"
             },
             "JRA25":{
                 "region":"global",
@@ -2365,6 +2433,12 @@
                 "source":"RSS-PRW 6.6.0 (2017): RSS-PRW 6.6.0 (2017): Water Vapor Path",
                 "source_type":"satellite_blended",
                 "source_version_number":"6.6.0"
+            },
+            "RSS-PRW-v07r00":{
+                "region":"global",
+                "source":"RSS-PRW 7.0 (2017): RSS-PRW 7.0 (2018): Water Vapor Path",
+                "source_type":"satellite_blended",
+                "source_version_number":"7.0"
             },
             "RSS-PRW-v07r01":{
                 "region":"global",
