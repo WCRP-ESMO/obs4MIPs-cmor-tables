@@ -16,7 +16,6 @@
     "license":"Data is released under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.",
     "institution_id":"NOAA-ESRL-PSD",
     "nominal_resolution":"5 km",
-    "region": "north_america",
     "outpath":"/global/cfs/projectdirs/m4581/obs4MIPs/obs4MIPs_LLNL/",
     "output_file_template":"<variable_id><frequency><source_id><variant_label><grid_label>",
     "output_path_template":"<institution_id>/<source_id>/<frequency>/<variable_id>/<grid_label>/<version>",

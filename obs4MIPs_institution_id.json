@@ -16,7 +16,9 @@
         "ENVEO":"Environmental Earth Observation Information Technology GmbH, Innsbruck, Austria",
         "ESPRI-IPSL":"Ensemble de Services Pour la Recherche, Institut Pierre Simon Laplace (France)",
         "ESSO":"Indian National Centre for Ocean Information Services",
+        "EUMETSAT-CMSAF":"EUMETSAT Satellite Application Facility on Climate Monitoring, Offenbach, Germany",
         "EmoryU":"Emory University, GA, USA",
+        "Estellus":"Estellus, Fr",
         "FMI":"Finnish Meteorological Institute, Helsinki, Finland",
         "GloH2O":"gloh2o.org",
         "INCOIS-NIO-IPSL":"Joint research colloboration between INCOIS(India), NIO(India) and IPSL(France)",
@@ -49,8 +51,10 @@
         "UCI-CHRS":"Center for Hydrometeorology and Remote Sensing",
         "UCSB-CHC":"University of California, Santa Barbara, Climate Hazards Center",
         "UCSD-SIO":"University of California, San Diego, Scripps Institution of Oceanography",
+        "ULeicester":"University of Leicester, Leicester, UK",
         "UReading":"University of Reading, Reading, UK",
         "UW":"University of Washington, USA",
+        "WEGC":"Wegener Center for Climate and Global Change, University of Graz, Austria",
         "WUR":"Wageningen Universit, Netherlands"
     }
 }
