@@ -17,7 +17,7 @@ An environment called "MYENVNAME" including the above software can be installed 
 
 **conda create -n MYENVNAME -c conda-forge xarray cmor xcdat**
 
-Running the demos, python code reads in the sample data via xarray, generates grid bounds via xcdat, and outputs a demo file using CMOR. The demos must be run with CMOR minimum version 3.2.6 or more recent. To run each demo, all contents in the demo subdirectory (including the /Tables subdirectory) must be saved locally, and a conda environment must be created including CMOR, xarray and xcdat. If python needs to be installed, it too is available via anaconda (https://anaconda.org/conda-forge/python). Once that is done, execute the following: <br>
+Running the demos, python code reads in the sample data via xarray, generates grid bounds via xcdat, and outputs a demo file using CMOR.  The demos must be run with CMOR 3.2.6 or a more recent version.  To run each demo, all contents in the demo subdirectory (including the /Tables subdirectory) must be saved locally, and a conda envirnment must be created including CMOR, xarray and xcdat. If python needs to be installed, it too is available via anaconda (https://anaconda.org/conda-forge/python). Once that is done, execute the following: <br>
 
 **demo-global2D**
     
@@ -31,9 +31,9 @@ python insitu_CMOR_demo.py
 
 python runCMORdemo_zonalmean.py
 
-If you have any difficulties, please contact the obs4MIPs team at obs4mips[dash]panel[at]wcrp[dash]cmip[dot]org
+If you have any difficulties, please contact the obs4MIPs team at obs4MIPs-admin@llnl.gov
 
-[More details on the process of preparing obs4MIPs compliant data are available in /inputs of this repo.](https://github.com/WCRP-ESMO/obs4MIPs-cmor-tables/blob/master/inputs/README.md)
+[More details on the process of preparing obs4MIPs compliant data are available in /inputs of this repo.](https://github.com/PCMDI/obs4MIPs-cmor-tables/tree/master/inputs/README.md)
 
 
 
